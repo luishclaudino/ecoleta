@@ -1,1 +1,1 @@
-<img src="/assets/logo.svg" title="Logo Ecoleta">
+<img src="./public/assets/logo.svg" title="Logo Ecoleta">
