@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="./public/assets/logo.svg" title="Logo Ecoleta">
+    <img width="300px" src="./public/assets/logo.svg" title="Logo Ecoleta">
 </h1>
 
 <p align="center">
@@ -22,13 +22,13 @@
 </p>
 
 <p align="center">
-  <a href="#-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#movie_camera-">Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#information_source-">Como utilizar a aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#bulb-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#movie_camera-preview-da-aplicação">Preview da Aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#information_source-como-executar-a-aplicação">Como executar a Aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#thinking-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-license">License</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-agradecimentos">Agradecimentos</a>
+  <a href="#thumbsup-agradecimentos">Agradecimentos</a>
 </p>
 
 ## :bulb: Sobre
@@ -44,6 +44,10 @@
 <li>Óleo de Cozinha</li>
 </ul>
 
+## :movie_camera: Preview da Aplicação
+
+<img src="./.github/Ecoleta.gif" title="Preview do Ecoleta">
+
 ## :rocket: Tecnologias
 
 Este projeto foi feito utilizando as seguintes tecnologias:
@@ -55,9 +59,7 @@ Este projeto foi feito utilizando as seguintes tecnologias:
 - Nunjucks
 - SQLite
 
-## :movie_camera: Preview da aplicação
-
-## :information_source: Como utilizar a aplicação
+## :information_source: Como executar a Aplicação
 
 Para clonar e inicializar esta aplicação, você precisará do [Git](https://git-scm.com) e do [Node.js](https://nodejs.org/en/download/) instalados no seu computador.
 
@@ -73,7 +75,7 @@ $ cd ecoleta
 # Instalando as dependências do projeto
 $ npm install
 
-# Criar o banco de dados
+# Criar o banco de dados local
 $ node src/database/db.js 
 
 # Inicializar o server
@@ -82,7 +84,9 @@ $ npm start
 # O server estará rodando na porta 3000
 ```
 
-## 🤔 Como contribuir
+Após isso só precisa acessar o endereço no seu navegador: `http://localhost:3000/`
+
+## :thinking: Como contribuir
 
 - Faça um fork;
 - Crie uma branck com sua feature: `git checkout -b my-feature`;
@@ -95,7 +99,7 @@ Depois de realizar o merge da sua contribuição, você pode excluir a sua branc
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/luishclaudino/ecoleta/blob/master/LICENSE) para mais detalhes.
 
-## :+1: Agradecimentos
+## :thumbsup: Agradecimentos
 
 Quero agradecer a [Rocketseat](https://github.com/Rocketseat) por promover a Next Level Week 1.0 e disponibilizar conhecimento gratuitamente.
 
