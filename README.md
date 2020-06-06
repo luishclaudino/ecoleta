@@ -63,7 +63,7 @@ Este projeto foi feito utilizando as seguintes tecnologias:
 
 Para clonar e inicializar esta aplicação, você precisará do [Git](https://git-scm.com) e do [Node.js](https://nodejs.org/en/download/) instalados no seu computador.
 
-Após isso, abra o terminal e siga os seguintes passos:
+Após isso, abra o terminal e digite os seguintes comandos:
 
 ```bash
 # Clone esse repositório
@@ -84,7 +84,7 @@ $ npm start
 # O server estará rodando na porta 3000
 ```
 
-Após isso só precisa acessar o endereço no seu navegador: `http://localhost:3000/`
+Após isso só precisa acessar seguinte o endereço no seu navegador: `http://localhost:3000/`
 
 ## :thinking: Como contribuir
 
