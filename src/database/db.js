@@ -5,21 +5,21 @@ const db = new sqlite3.Database("./src/database/database.db")
 
 module.exports = db
 
-// db.serialize(() => {
+db.serialize(() => {
 
-//     // // Criar Tabela
-//     // db.run(`
-//     //     CREATE TABLE IF NOT EXISTS places (
-//     //         id INTEGER PRIMARY KEY AUTOINCREMENT,
-//     //         image TEXT,
-//     //         name TEXT,
-//     //         address TEXT,
-//     //         address2 TEXT,
-//     //         state TEXT,
-//     //         city TEXT,
-//     //         items TEXT
-//     //     );
-//     // `)
+    // Criar Tabela
+    db.run(`
+        CREATE TABLE IF NOT EXISTS places (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            image TEXT,
+            name TEXT,
+            address TEXT,
+            address2 TEXT,
+            state TEXT,
+            city TEXT,
+            items TEXT
+        );
+    `)
 
 //     // // Inserção de dados
 //     // const query = `
@@ -74,4 +74,4 @@ module.exports = db
 
     //     console.log("Registro deletado com sucesso!")
     // })
-// })
+})
