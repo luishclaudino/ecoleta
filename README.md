@@ -84,7 +84,7 @@ $ npm start
 # O server estará rodando na porta 3000
 ```
 
-Após isso só precisa acessar seguinte o endereço no seu navegador: `http://localhost:3000/`
+Após isso só precisa acessar o seguinte endereço no seu navegador: `http://localhost:3000/`
 
 ## :thinking: Como contribuir
 
